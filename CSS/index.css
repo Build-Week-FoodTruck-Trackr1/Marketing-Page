@@ -1,0 +1,219 @@
+.header {
+  background-color: black;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.header .main-nav {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.header .main-nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #ECA564;
+  text-shadow: 1px 3px 3px #F7CE74;
+}
+.header .logo-container {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+.header .logo-container .main-title {
+  color: #ECA564;
+  text-shadow: 1px 3px 3px #F7CE74;
+  display: flex;
+  align-items: center;
+  margin: 0% 2%;
+}
+.header .logo-container .logo {
+  width: 120px;
+  height: 100%;
+  margin: 0% 2%;
+}
+.header .button-container {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header .button-container button {
+  height: 50%;
+  width: 40%;
+  font-size: 2.2rem;
+  color: black;
+  background-color: #ECA564;
+  border: 5px solid #F7CE74;
+  border-style: outset;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-style: 'Helvetica Neue Light';
+}
+title,
+h1 {
+  font-style: 'Nunito Sans ExtraBold';
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-style: 'Nunito Sans Bold';
+  font-size: 2.6rem;
+}
+h3,
+h4 {
+  font-style: 'Nunito Sans SemiBold';
+}
+h3 {
+  font-size: 2.4rem;
+}
+p {
+  font-style: 'Helvetica Neue Light';
+  font-size: 1.6rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
