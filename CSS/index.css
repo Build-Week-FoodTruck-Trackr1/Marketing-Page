@@ -1,58 +1,3 @@
-.header {
-  background-color: black;
-  height: 80px;
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-}
-.header .main-nav {
-  width: 30%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.header .main-nav a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 33%;
-  font-size: 2rem;
-  text-decoration: none;
-  color: #ECA564;
-  text-shadow: 1px 3px 3px #F7CE74;
-}
-.header .logo-container {
-  width: 30%;
-  display: flex;
-  justify-content: center;
-}
-.header .logo-container .main-title {
-  color: #ECA564;
-  text-shadow: 1px 3px 3px #F7CE74;
-  display: flex;
-  align-items: center;
-  margin: 0% 2%;
-}
-.header .logo-container .logo {
-  width: 120px;
-  height: 100%;
-  margin: 0% 2%;
-}
-.header .button-container {
-  width: 30%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.header .button-container button {
-  height: 50%;
-  width: 40%;
-  font-size: 2.2rem;
-  color: black;
-  background-color: #ECA564;
-  border: 5px solid #F7CE74;
-  border-style: outset;
-}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -216,4 +161,83 @@ p {
 img {
   max-width: 100%;
   height: auto;
+}
+.header {
+  background-color: black;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.header .main-nav {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.header .main-nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #ECA564;
+  text-shadow: 1px 3px 3px #F7CE74;
+}
+.header .logo-container {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+.header .logo-container .main-title {
+  color: #ECA564;
+  text-shadow: 1px 3px 3px #F7CE74;
+  display: flex;
+  align-items: center;
+  margin: 0% 2%;
+}
+.header .logo-container .logo {
+  width: 120px;
+  height: 100%;
+  margin: 0% 2%;
+}
+.header .button-container {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header .button-container button {
+  height: 50%;
+  width: 40%;
+  font-size: 2.2rem;
+  color: black;
+  background-color: #ECA564;
+  border: 5px solid #F7CE74;
+  border-style: outset;
+}
+.home-top {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+}
+.home-top h2 {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  margin: 3.5% 0%;
+}
+.home-top .search-container {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+}
+.home-top .search-container input {
+  border: 1px solid green;
+  justify-content: center;
+  width: 40%;
+  height: 40px;
+  font-size: 2rem;
+  padding: 1% 2%;
 }
