@@ -131,11 +131,11 @@ table {
 }
 html {
   font-size: 62.5%;
-  background-color: #ECA564;
 }
 html,
 body {
   font-style: 'Helvetica Neue Light';
+  background-color: #232429;
 }
 title,
 h1 {
@@ -238,7 +238,6 @@ img {
   font-size: 1.6em;
   text-decoration: none;
   color: #ECA564;
-  text-shadow: 1px 9px 9px #F7CE74;
 }
 .footer .copyright {
   display: flex;
@@ -248,7 +247,6 @@ img {
   font-size: 1.8rem;
   text-decoration: none;
   color: #ECA564;
-  text-shadow: 1px 9px 9px #F7CE74;
 }
 .map-image {
   background-repeat: no-repeat;
@@ -267,6 +265,7 @@ img {
   display: flex;
   justify-content: center;
   margin: 3.5% 0%;
+  z-index: 100;
 }
 .map-image .home-top .search-container {
   display: flex;
@@ -283,4 +282,13 @@ img {
   display: flex;
   justify-content: center;
   margin: 3.5% 0%;
+}
+.food-truck-image {
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  -webkit-filter: blur(2px);
 }
