@@ -290,5 +290,19 @@ img {
   background-size: cover;
   display: flex;
   align-items: center;
-  -webkit-filter: blur(2px);
+}
+.about-section {
+  background-color: white;
+  margin: 2% 3%;
+}
+.about-section .vl {
+  border-left: thin solid red;
+}
+.about-section .about-us {
+  margin: 5% 3% 1% 2%;
+  font-size: 4rem;
+}
+.about-section p {
+  font-size: 2rem;
+  text-indent: 5rem;
 }
