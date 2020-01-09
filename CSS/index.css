@@ -218,6 +218,38 @@ img {
   border: 5px solid #F7CE74;
   border-style: outset;
 }
+.footer {
+  border: 1px solid blue;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+.footer .footer-nav {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin: 0% 0% 0.5%;
+}
+.footer .footer-nav a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #ECA564;
+  text-shadow: 1px 9px 9px #F7CE74;
+}
+.footer .copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #ECA564;
+  text-shadow: 1px 9px 9px #F7CE74;
+}
 .map-image {
   background-repeat: no-repeat;
   background-size: cover;
