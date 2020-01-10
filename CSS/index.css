@@ -164,10 +164,10 @@ img {
   height: auto;
 }
 .header {
+  display: flex;
   background-color: black;
   height: 80px;
   width: 100%;
-  display: flex;
   justify-content: space-evenly;
 }
 .header .main-nav {
@@ -222,15 +222,16 @@ img {
   border: 1px solid blue;
   background-color: black;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 80px;
 }
 .footer .footer-nav {
   width: 20%;
   display: flex;
   justify-content: center;
+  align-items: center;
   justify-content: space-evenly;
   margin: 0% 0% 0.5%;
 }
@@ -241,8 +242,8 @@ img {
 }
 .footer .copyright {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 100%;
   font-size: 1.8rem;
   text-decoration: none;
@@ -253,6 +254,7 @@ img {
   background-size: cover;
   height: 90vh;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .map-image .home-top {
@@ -264,15 +266,16 @@ img {
 .map-image .home-top h2 {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 3.5% 0%;
   z-index: 100;
 }
 .map-image .home-top .search-container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .map-image .home-top .search-container input {
-  justify-content: center;
   width: 40%;
   height: 40px;
   font-size: 2rem;
@@ -281,6 +284,7 @@ img {
 .map-image .home-top h3 {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 3.5% 0%;
 }
 .food-truck-image {
@@ -295,14 +299,13 @@ img {
   background-color: white;
   margin: 2% 3%;
 }
-.about-section .vl {
-  border-left: thin solid red;
-}
 .about-section .about-us {
   margin: 5% 3% 1% 2%;
   font-size: 4rem;
 }
+.about-section .indent {
+  text-indent: 5rem;
+}
 .about-section p {
   font-size: 2rem;
-  text-indent: 5rem;
 }
