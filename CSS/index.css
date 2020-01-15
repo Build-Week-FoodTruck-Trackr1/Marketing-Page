@@ -165,29 +165,30 @@ img {
 }
 .header {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: black;
-  height: 80px;
-  width: 100%;
-  justify-content: space-evenly;
+  height: 25vh;
+  width: 100vw;
 }
 .header .main-nav {
-  width: 30%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  width: 50vw;
 }
 .header .main-nav a {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 33%;
-  font-size: 2rem;
+  justify-content: space-evenly;
+  padding: 0 0.5rem;
+  width: 25vw;
+  font-size: 1.8rem;
   text-decoration: none;
   color: #ECA564;
   text-shadow: 1px 9px 9px #F7CE74;
 }
 .header .logo-container {
-  width: 30%;
+  width: 100vw;
   display: flex;
   justify-content: center;
 }
@@ -199,12 +200,13 @@ img {
   margin: 0% 2%;
 }
 .header .logo-container .logo {
-  width: 120px;
+  width: 12rem;
   height: 100%;
   margin: 0% 2%;
 }
 .header .button-container {
-  width: 25%;
+  width: 65vw;
+  height: 20vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -218,6 +220,14 @@ img {
   border: 5px solid #F7CE74;
   border-style: outset;
 }
+@media (min-width: 1001px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+}
 .footer {
   border: 1px solid blue;
   background-color: black;
@@ -225,10 +235,11 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 80px;
+  height: 25vh;
+  width: 100vw;
 }
 .footer .footer-nav {
-  width: 20%;
+  width: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -239,6 +250,7 @@ img {
   font-size: 1.6em;
   text-decoration: none;
   color: #ECA564;
+  margin: 0 0 5%;
 }
 .footer .copyright {
   display: flex;
@@ -252,15 +264,17 @@ img {
 .map-image {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90vh;
+  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .map-image .home-top {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  width: 100%;
+  width: 100vw;
   font-weight: bold;
 }
 .map-image .home-top h2 {
@@ -268,7 +282,7 @@ img {
   justify-content: center;
   align-items: center;
   margin: 3.5% 0%;
-  z-index: 100;
+  font-size: 2.5rem;
 }
 .map-image .home-top .search-container {
   display: flex;
@@ -276,16 +290,19 @@ img {
   align-items: center;
 }
 .map-image .home-top .search-container input {
-  width: 40%;
+  width: 40vh;
   height: 40px;
-  font-size: 2rem;
-  padding: 1% 2%;
+  font-size: 1.6rem;
+  padding: 1% 3%;
 }
 .map-image .home-top h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 3.5% 0%;
+  width: 80vw;
+  margin: 3.5% 0;
+  font-size: 2rem;
+  text-align: center;
 }
 .food-truck-image {
   width: 100%;
