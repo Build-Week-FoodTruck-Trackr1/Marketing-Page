@@ -16,7 +16,6 @@
             display: flex;
             justify-content: space-evenly;
             padding: 0 0.5rem;
-            width: 25vw;
             font-size: 1.8rem;
             text-decoration: none;
             color: @main-color;
@@ -34,13 +33,12 @@
             text-shadow: 1px 9px 9px @sec-color;
             display: flex;
             align-items: center;
-            margin: 0% 2%;
         }
 
         .logo {
             width: 12rem;
             height: 100%;
-            margin: 0% 2%;
+            margin: 0% 1%;
         }
     }
     
@@ -66,7 +64,27 @@
 
 @media @desktop {
     .header {
-        .center();
+        display: flex;
         flex-direction: row;
+
+        .main-nav {
+            .center();
+            width: 100vw;
+            justify-content: center;
+            justify-content: space-evenly;
+        }
+
+        .logo-container {
+            width: 70vw;
+            margin: 0 0.5vw;
+        }
+
+        .button-container {
+            width: 75vw;
+
+            button {
+                height: 5vh;
+            }
+        }
     }
 }

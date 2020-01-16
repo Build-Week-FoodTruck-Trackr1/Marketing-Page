@@ -181,7 +181,6 @@ img {
   display: flex;
   justify-content: space-evenly;
   padding: 0 0.5rem;
-  width: 25vw;
   font-size: 1.8rem;
   text-decoration: none;
   color: #ECA564;
@@ -197,12 +196,11 @@ img {
   text-shadow: 1px 9px 9px #F7CE74;
   display: flex;
   align-items: center;
-  margin: 0% 2%;
 }
 .header .logo-container .logo {
   width: 12rem;
   height: 100%;
-  margin: 0% 2%;
+  margin: 0% 1%;
 }
 .header .button-container {
   width: 65vw;
@@ -223,9 +221,24 @@ img {
 @media (min-width: 1001px) {
   .header {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: row;
+  }
+  .header .main-nav {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+  .header .logo-container {
+    width: 70vw;
+    margin: 0 0.5vw;
+  }
+  .header .button-container {
+    width: 75vw;
+  }
+  .header .button-container button {
+    height: 5vh;
   }
 }
 .map-image {
